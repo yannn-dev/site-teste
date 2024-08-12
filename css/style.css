@@ -1,0 +1,57 @@
+/*Style de index.html*/
+
+:root {
+   --cor-primaria: #674188;
+   --cor-secundaria: #F7EFE5;
+   --cor-terciaria: #fff;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+}
+
+.header {
+    padding: 2% 0% 0% 15%;
+}
+
+.header_info {
+    display: flex;
+    gap: 30px;
+    background-color: var(--cor-terciaria);
+}
+
+.header_info_link {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+
+.container {
+    padding: 15% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cor-primaria);
+}
+
+.container_p {
+    color: black;
+    padding: 5% 0% 0% 0%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 5% 0% 0% 0%;
+    color: var(--cor-primaria);
+}
+
